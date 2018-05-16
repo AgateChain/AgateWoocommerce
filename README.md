@@ -12,7 +12,7 @@ Installation Instructions:
 **OR**
 * Go to your WP-Admin > Plugin > Add New > Upload then upload the latest version of the plugin which you can find in the [latest release](https://github.com/AgateChain/AgateWoocommerce/releases).
 * Once installed, you must activate the WooCommerce Pay With Agate plugin using the Plugin section of the WordPress administration console.
-* To configure Jeeb, use the WordPress administration console and go to WooCommerce > Settings > Checkout > Pay With Jeeb.
+* To configure Agate Services, use the WordPress administration console and go to WooCommerce > Settings > Checkout > Pay With Jeeb.
 * You will need to provide an API Key from the Agate services, visit [here](http://www.agate.services/registration-form/) .
 * Once configured, you can Enable the Payment Gateway and you will now see AGATE SERVICE as a payment option in your WooCommerce checkout!
 
