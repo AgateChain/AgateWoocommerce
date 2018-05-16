@@ -46,7 +46,7 @@ function woocommerce_paywith_agate_init(){
             $this -> title       = $this -> settings['title'];
             $this -> description = $this -> settings['description'];
             $this -> api_key     = $this -> settings['api_key'];
-            $this -> convert_url = "https://data.fixer.io/api/convert?access_key=5eca86a7a5b906b37084503824894e69&from=";
+            $this -> convert_url = "http://gateway.agate.services/convert/?api_key=";
             $this -> base_url    = "http://gateway.agate.services/?api_key=".$this -> api_key;
 
 
@@ -109,7 +109,7 @@ function woocommerce_paywith_agate_init(){
             global $woocommerce;
             $order = new WC_Order( $order_id );
             $amount = $order->total;
-            $url = $this -> convert_url.get_option("woocommerce_currency")."&to=USD&amount=". $amount;
+            $url = $this -> convert_url.$this->api_key."&woocommerce_currency=".get_option("woocommerce_currency")."&amount=". $amount;
 
             error_log("Requesting Covert API with Params");
             error_log("Url : " . $url);
