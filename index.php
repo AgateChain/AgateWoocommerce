@@ -109,7 +109,7 @@ function woocommerce_paywith_agate_init(){
             global $woocommerce;
             $order = new WC_Order( $order_id );
             $amount = $order->total;
-            $url = $this -> convert_url.$this->api_key."&woocommerce_currency=".get_option("woocommerce_currency")."&amount=". $amount;
+            $url = $this -> convert_url.$this->api_key."&currency=".get_option("woocommerce_currency")."&amount=". $amount;
 
             error_log("Requesting Covert API with Params");
             error_log("Url : " . $url);
