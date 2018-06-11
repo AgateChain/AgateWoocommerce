@@ -16,6 +16,11 @@ Installation Instructions:
 * You will need to provide an API Key from the Agate services, visit [here](http://www.agate.services/registration-form/) .
 * Once configured, you can Enable the Payment Gateway and you will now see AGATE SERVICE as a payment option in your WooCommerce checkout!
 
+Try How It Works ?
+====================
+
+We have created a demo website for you to test the plugin, feel free to visit [here](http://www.agate.services/product/test/) .
+
 -----------------------------------------------
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
